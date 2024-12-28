@@ -1,0 +1,14 @@
+{
+  "name": "mysubmoduleb",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "isItChristmas.js",
+  "scripts": {
+    "start": "node --input-type=module -e \"import('./isItChristmas.js').then(m => m.default())\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
